@@ -4,7 +4,7 @@
 
 A simplified digital heart-rate monitor built for Tiny Tapeout, submitted
 via the Wokwi track. Counts simulated pulses using a 4-bit binary ripple
-counter and triggers an alarm output once the count reaches 12,
+counter by flipping IN0 (No. 1 in the red switch). It triggers an alarm output once the count reaches 12(red dot lights up),
 representing a simplified tachycardia (high heart rate) warning.
 
 - [Read the documentation for project](https://github.com/ant6769/ttihp-wokwi-competition/blob/main/docs/info.md)
