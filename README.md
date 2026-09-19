@@ -1,8 +1,13 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/wokwi_test/badge.svg) ![](../../workflows/fpga/badge.svg)
 
-# Tiny Tapeout Wokwi Project Template
+# Pulse Rate Monitor with Tachycardia Alarm
 
-- [Read the documentation for project](docs/info.md)
+A simplified digital heart-rate monitor built for Tiny Tapeout, submitted
+via the Wokwi track. Counts simulated pulses using a 4-bit binary ripple
+counter and triggers an alarm output once the count reaches 12,
+representing a simplified tachycardia (high heart rate) warning.
+
+- [Read the documentation for project](https://github.com/ant6769/ttihp-wokwi-competition/blob/main/docs/info.md)
 
 ## What is Tiny Tapeout?
 
