@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
   wokwi_id:     475569675750455297       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
+  title:        "Pulse Rate Monitor"      # Project title
+  author:       "Luke Daniel A. Laurenciana"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "A simplified digital heart-rate monitor that counts simulated pulses and triggers an alarm above a threshold."      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -16,8 +16,8 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
+  ui[0]: "Pulse button (press to simulate one heartbeat)"
+  ui[1]: "Reset button (clears the count)"
   ui[2]: ""
   ui[3]: ""
   ui[4]: ""
@@ -26,14 +26,14 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
+  uo[0]: "Count bit 0"
+  uo[1]: "Count bit 1"
+  uo[2]: "Count bit 2"
+  uo[3]: "Count bit 3"
   uo[4]: ""
   uo[5]: ""
   uo[6]: ""
-  uo[7]: ""
+  uo[7]: "Alarm LED (high when pulse count exceeds threshold)"
 
   # Bidirectional pins
   uio[0]: ""
