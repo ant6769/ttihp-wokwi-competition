@@ -39,12 +39,14 @@ counter, back to zero.
 3. After each on-flip, observe uo_out[3:0] — the binary count should
    advance by one with every pulse (wrapping back to 0 after 15).
 4. Continue pulsing until the count reaches 12 (binary 1100) and confirm
-   uo_out[7], the alarm output, goes high, and confirm it turns back off
+   uo_out[7], the alarm output, goes high(red dot appears), and confirm it turns back off
    once the count drops back below 12 (after wraparound).
 
 Note: in this simulation, the counter's initial power-on value may be
 arbitrary rather than zero, which is normal flip-flop startup behavior;
 the counter still increments correctly from whatever value it starts at.
+
+
 ## External hardware
 
 None — this project uses only the chip's onboard input and output pins. No external sensors, displays, or PMODs required.
