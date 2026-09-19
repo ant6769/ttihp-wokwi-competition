@@ -16,8 +16,8 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "Pulse button (press to simulate one heartbeat)"
-  ui[1]: "Reset button (clears the count)"
+  ui[0]: "Pulse switch (flip on, then off, to register one simulated heartbeat)"
+  ui[1]: ""
   ui[2]: ""
   ui[3]: ""
   ui[4]: ""
@@ -26,10 +26,10 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: "Count bit 0"
+  uo[0]: "Count bit 0 (LSB)"
   uo[1]: "Count bit 1"
   uo[2]: "Count bit 2"
-  uo[3]: "Count bit 3"
+  uo[3]: "Count bit 3 (MSB)"
   uo[4]: ""
   uo[5]: ""
   uo[6]: ""
